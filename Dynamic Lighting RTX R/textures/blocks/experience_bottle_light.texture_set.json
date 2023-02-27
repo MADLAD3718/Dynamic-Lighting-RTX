@@ -1,0 +1,7 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:texture_set": {
+        "color": "experience_bottle_light",
+        "metalness_emissive_roughness": [0,16,255]
+    }
+}

@@ -1,0 +1,15 @@
+{
+  "resource_pack_name": "dlrtx",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "offhand_torch": {
+      "textures": "textures/items/offhand_torch"
+    },
+    "offhand_soul_torch": {
+      "textures": "textures/items/offhand_soul_torch"
+    },
+    "offhand_redstone_torch": {
+      "textures": "textures/items/offhand_redstone_torch"
+    }
+  }
+}

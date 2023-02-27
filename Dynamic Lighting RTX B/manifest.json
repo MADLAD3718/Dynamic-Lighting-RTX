@@ -1,0 +1,41 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Dynamic Lighting RTX",
+        "description": "A Dynamic Lighting addon for use with Ray Tracing, by §6MADLAD3718§r.",
+        "uuid": "1a888c1f-b18c-4353-82a9-612995c2f885",
+        "version": [1,0,0],
+        "min_engine_version": [1,19,40]
+    },
+    "modules": [
+        {
+            "description": "A Dynamic Lighting addon for use with Ray Tracing, by §6MADLAD3718§r.",
+            "type": "data",
+            "uuid": "7dbf4112-b97a-4153-923a-f16b0f1b42b4",
+            "version": [1,0,0]
+        },
+		{
+			"description": "Script that implements advanced dynamic lighting functionality.",
+			"type": "script",
+			"language": "javascript",
+			"uuid": "c8a0fefc-b575-4c71-8ba5-54dd01bfb9e9",
+			"version": [
+				1,
+				0,
+				0
+			],
+			"entry": "scripts/main.js"
+		}
+    ],
+    "dependencies": [
+        {
+            "uuid": "e1d91ab3-f848-4fa9-948b-3a7166e0adf5",
+            "version": [1,0,0]
+        },
+		{
+			// mojang-minecraft
+			"uuid": "b26a4d4c-afdf-4690-88f8-931846312678",
+			"version": "1.1.0-beta"
+		}
+    ]
+}

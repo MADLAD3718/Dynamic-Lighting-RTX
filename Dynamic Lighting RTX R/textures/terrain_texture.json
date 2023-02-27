@@ -1,0 +1,113 @@
+{
+   "resource_pack_name" : "dynamic",
+   "texture_name" : "atlas.terrain",
+   "padding" : 0,
+   "num_mip_levels" : 0,
+   "texture_data" : {
+      "torch_light": {
+        "textures": "textures/blocks/torch_light"
+      },
+      "glowstone_light": {
+         "textures": "textures/blocks/glowstone_light"
+      },
+      "soul_torch_light": {
+         "textures": "textures/blocks/soul_torch_light"
+      },
+      "soul_lantern_light": {
+         "textures": "textures/blocks/soul_lantern_light"
+      },
+      "lantern_light": {
+         "textures": "textures/blocks/lantern_light"
+      },
+      "campfire_light": {
+         "textures": "textures/blocks/campfire_light"
+      },
+      "soul_campfire_light": {
+         "textures": "textures/blocks/soul_campfire_light"
+      },
+      "beacon_light": {
+         "textures": "textures/blocks/beacon_light"
+      },
+      "redstone_torch_light": {
+         "textures": "textures/blocks/redstone_torch_light"
+      },
+      "end_rod_light": {
+         "textures": "textures/blocks/end_rod_light"
+      },
+      "glow_frame_light": {
+         "textures": "textures/blocks/glow_frame_light"
+      },
+      "glow_ink_sac_light": {
+         "textures": "textures/blocks/glow_ink_sac_light"
+      },
+      "amethyst_cluster_light": {
+         "textures": "textures/blocks/amethyst_cluster_light"
+      },
+      "crying_obsidian_light": {
+         "textures": "textures/blocks/crying_obsidian_light"
+      },
+      "magma_light": {
+         "textures": "textures/blocks/magma_light"
+      },
+      "lit_pumpkin_light": {
+         "textures": "textures/blocks/lit_pumpkin_light"
+      },
+      "shroomlight_light": {
+         "textures": "textures/blocks/shroomlight_light"
+      },
+      "glowstone_dust_light": {
+         "textures": "textures/blocks/glowstone_dust_light"
+      },
+      "blaze_rod_light": {
+         "textures": "textures/blocks/blaze_rod_light"
+      },
+      "glow_berries_light": {
+         "textures": "textures/blocks/glow_berries_light"
+      },
+      "brewing_stand_light": {
+         "textures": "textures/blocks/brewing_stand_light"
+      },
+      "sea_lantern_light": {
+         "textures": "textures/blocks/sea_lantern_light"
+      },
+      "ochre_froglight_light": {
+         "textures": "textures/blocks/ochre_froglight_light"
+      },
+      "verdant_froglight_light": {
+         "textures": "textures/blocks/verdant_froglight_light"
+      },
+      "pearlescent_froglight_light": {
+         "textures": "textures/blocks/pearlescent_froglight_light"
+      },
+      "nether_star_light": {
+         "textures": "textures/blocks/nether_star_light"
+      },
+      "ender_eye_light": {
+         "textures": "textures/blocks/ender_eye_light"
+      },
+      "sea_pickle_light": {
+         "textures": "textures/blocks/sea_pickle_light"
+      },
+      "lava_bucket_light": {
+         "textures": "textures/blocks/lava_bucket_light"
+      },
+      "experience_bottle_light": {
+         "textures": "textures/blocks/experience_bottle_light"
+      },
+      "dragon_breath_light": {
+         "textures": "textures/blocks/dragon_breath_light"
+      },
+      "fire_charge_light": {
+         "textures": "textures/blocks/fire_charge_light"
+      },
+      "echo_shard_light": {
+         "textures": "textures/blocks/echo_shard_light"
+      },
+      "end_crystal_light": {
+         "textures": "textures/blocks/end_crystal_light"
+      },
+      "glow_lichen_light": {
+         "textures": "textures/blocks/glow_lichen_light"
+      }
+   }
+}

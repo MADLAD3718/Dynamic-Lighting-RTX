@@ -1,0 +1,24 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "An example of a possible Dynamic Lighting addon for use with Ray Tracing, by §6MADLAD3718§r.",
+        "name": "Dynamic Lighting RTX",
+        "uuid": "e1d91ab3-f848-4fa9-948b-3a7166e0adf5",
+        "version": [1,0,0],
+        "min_engine_version": [1,16,200]
+    },
+    "modules": [
+        {
+            "description": "An example of a possible Dynamic Lighting addon for use with Ray Tracing, by §6MADLAD3718§r.",
+            "type": "resources",
+            "uuid": "f128af90-e14a-4c2d-9f37-b3ab62cf85a0",
+            "version": [1,0,0]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "1a888c1f-b18c-4353-82a9-612995c2f885",
+            "version": [1,0,0]
+        }
+    ]
+}

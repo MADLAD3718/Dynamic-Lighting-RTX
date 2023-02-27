@@ -1,0 +1,42 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "dlrtx:underwater_nether_star_light"
+		},
+		"components": {
+			"minecraft:breathability": "air",
+			"minecraft:block_light_emission": 1,
+			"minecraft:destroy_time": 999,
+			"minecraft:geometry": "geometry.light",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "nether_star_light",
+					"render_method": "double_sided"
+				}
+			},
+			"minecraft:entity_collision": false,
+			"minecraft:pick_collision": false,
+			"minecraft:ticking": {
+				"looping": true,
+				"range": [
+					0.4,
+					0.4
+				],
+				"on_tick": {
+					"event": "remove",
+					"target": "self"
+				}
+			},
+			"tag:water_dynamic_light": {}
+		},
+		"events": {
+			"remove": {
+				"set_block_at_pos": {
+					"block_type": "minecraft:water",
+					"block_offset": [0, 0, 0]
+				}		
+			}
+		}
+	}
+}

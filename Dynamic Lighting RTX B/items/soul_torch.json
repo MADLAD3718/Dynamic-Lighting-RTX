@@ -1,0 +1,16 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "dlrtx:soul_torch",
+      "category": "items"
+    },
+    "components": {
+		  "minecraft:icon":{
+			  "texture": "offhand_soul_torch"
+		  },
+		  "minecraft:allow_off_hand": true,
+      "minecraft:max_stack_size": 1
+    }
+  }
+}
