@@ -50,7 +50,7 @@ class Main {
             'minecraft:medium_amethyst_bud',
             'minecraft:small_amethyst_bud'
         ],
-        // Chroma Tech
+        // Chroma Tech Compatibility
         chroma_light_strip: [
             'chroma_tech:light_strip',
             'chroma_tech:light_strip_door',
@@ -187,11 +187,12 @@ class Main {
             const heldItem = player.getComponent('minecraft:inventory').container.getItem(player.selectedSlot);
             const relativeBlock = this.getRelativeBlock(player);
             if (relativeBlock === null) continue;
+            // Test if the player is holding an 'emissive' item
             if (this.lightingItems.includes(heldItem?.typeId) === true)
                 this.normalDynamicLight(heldItem?.typeId, relativeBlock);
             else this.groupDynamicLight(heldItem?.typeId, relativeBlock);
+            // Test in offhand slot as well
             this.lightingItems.forEach(id => {
-                // if (id == 'dlrtx:torch') console.warn(`Testing for ${id}`);
                 player.runCommandAsync(`testfor @s[hasitem={location=slot.weapon.offhand,item=${id}}]`).then(result => {
                     if (result.successCount > 0)
                         this.normalDynamicLight(id, relativeBlock);
@@ -218,7 +219,7 @@ class Main {
     }
 
     /**
-     * 
+     * Gets the blocklocation that will be used to place the lighting block
      * @param {Player} player 
      * @returns 
      */
@@ -231,6 +232,7 @@ class Main {
             return Vector.multiply(player.viewDirection, -1.15);
         };
         const relativeBlockVector = getVector();
+        // Modify x y z coords according to player velocity to prevent making the lighting block clip into the player's view
         const relativeBlockX = this.getRelativeBlockX(player, relativeBlockVector);
         const relativeBlockY = this.getRelativeBlockY(player, relativeBlockVector);
         const relativeBlockZ = this.getRelativeBlockZ(player, relativeBlockVector);
